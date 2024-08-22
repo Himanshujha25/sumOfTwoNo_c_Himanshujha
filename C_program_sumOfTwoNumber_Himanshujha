@@ -1,0 +1,11 @@
+// c program for addition of two number(but not accurrate as normal calculator)
+#include <stdio.h>
+
+int main() {
+int num1,num2,num3;
+printf("enter the two number for the sum:");
+scanf("%d+%d",&num1,&num2);
+num3=num1+num2;
+printf("%d\n",num3);
+    return 0;
+}
